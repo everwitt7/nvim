@@ -9,3 +9,4 @@ require "config.gruvbox"
 
 require "config.lualine"
 require "config.nvimtree"
+require "config.telescope"
