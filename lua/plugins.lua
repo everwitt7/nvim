@@ -33,4 +33,10 @@ return {
 -- or                              , branch = '0.1.1',
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
+    -- Alpha (Dashboard)
+    -- Added this plugin to initial configuration
+    {
+        "goolord/alpha-nvim",
+        lazy = true,
+    },
 }

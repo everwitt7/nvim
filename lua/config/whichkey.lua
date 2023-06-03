@@ -84,9 +84,11 @@ local mappings = {
     ["p"] = { "<cmd>Lazy<CR>", "Plugin Manager" }, -- Invoking plugin manager
     ["q"] = { "<cmd>wqall!<CR>", "Quit" }, -- Quit Neovim after saving the file
     ["w"] = { "<cmd>w!<CR>", "Save" }, -- Save current file
-    -- nvimtree
+    -- nvimtree (file explorer)
     ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" }, -- Space E becomes File Explorer
-    -- Telescope
+    -- alpha (dashboard)
+    ["a"] = { "<cmd>Alpha<cr>", "Alpha" },
+    -- Telescope (fuzzy file finding)
     f = {
         name = "File Search",
         c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
