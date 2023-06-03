@@ -1,3 +1,5 @@
 return { 
-  -- Plugins will be added here accordingly.
+    -- Which-key Extension
+    "folke/which-key.nvim",
+    lazy = true,
 }
