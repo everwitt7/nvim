@@ -18,4 +18,13 @@ return {
       'nvim-lualine/lualine.nvim',
       dependencies = { 'nvim-tree/nvim-web-devicons', opt = true}
     },
+    -- Nvimtree (File Explorer)
+    -- Added this reference to the initial file
+    {
+        'nvim-tree/nvim-tree.lua',
+        lazy = true,
+        dependencies = {
+            'nvim-tree/nvim-web-devicons',
+        },
+    },
 }

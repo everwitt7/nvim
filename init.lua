@@ -8,3 +8,4 @@ require "config.whichkey"
 require "config.gruvbox"
 
 require "config.lualine"
+require "config.nvimtree"
