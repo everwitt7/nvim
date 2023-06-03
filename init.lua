@@ -2,4 +2,7 @@ require "config.options"
 require "config.keymaps"
 require "config.lazy"
 require "config.whichkey"
-require "config.tokyonight"
+
+-- Colorscheme
+-- require "config.tokyonight"
+require "config.gruvbox"
