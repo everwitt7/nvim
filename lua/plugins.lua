@@ -39,4 +39,8 @@ return {
         "goolord/alpha-nvim",
         lazy = true,
     },
+    -- Treesitter
+    {
+        "nvim-treesitter/nvim-treesitter",
+    },
 }
