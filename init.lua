@@ -6,3 +6,5 @@ require "config.whichkey"
 -- Colorscheme
 -- require "config.tokyonight"
 require "config.gruvbox"
+
+require "config.lualine"

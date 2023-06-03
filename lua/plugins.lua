@@ -13,4 +13,9 @@ return {
     },
     { "ellisonleao/gruvbox.nvim", priority = 1000 },
 
+    -- Lualine (THE NEW EXTENSION ADDED IN CONFIGURATION)
+    {
+      'nvim-lualine/lualine.nvim',
+      dependencies = { 'nvim-tree/nvim-web-devicons', opt = true}
+    },
 }
