@@ -79,7 +79,7 @@ local opts = {
 }
 
 local mappings = {
-
+    -- these are the mappings that appear when you prace SPACE
     ["k"] = { "<cmd>bdelete<CR>", "Kill Buffer" },  -- Close current file
     ["p"] = { "<cmd>Lazy<CR>", "Plugin Manager" }, -- Invoking plugin manager
     ["q"] = { "<cmd>wqall!<CR>", "Quit" }, -- Quit Neovim after saving the file
