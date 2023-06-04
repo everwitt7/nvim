@@ -68,6 +68,9 @@ return {
   -- Added this plugin.
   {
     'akinsho/toggleterm.nvim',
-     onfig = true
+    config = true
+  },
+  {
+    "windwp/nvim-autopairs"
   },
 }
