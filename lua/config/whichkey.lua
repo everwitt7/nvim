@@ -133,6 +133,9 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" }, -- Horizontal Terminal,
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },     -- Vertical Terminal
   },
+  -- Undotree
+  ["u"] = { "<cmd>lua require('undotree').toggle()<CR>", "Undo-Tree" },
+
 }
 
 which_key.setup(setup)

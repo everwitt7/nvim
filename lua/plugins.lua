@@ -84,4 +84,11 @@ return {
       })
     end
   },
+  -- Added this plugin
+  {
+    "jiaoshijie/undotree",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+  },
 }
