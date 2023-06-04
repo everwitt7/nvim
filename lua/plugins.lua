@@ -19,7 +19,6 @@ return {
       dependencies = { 'nvim-tree/nvim-web-devicons', opt = true}
     },
     -- Nvimtree (File Explorer)
-    -- Added this reference to the initial file
     {
         'nvim-tree/nvim-tree.lua',
         lazy = true,
@@ -34,7 +33,6 @@ return {
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
     -- Alpha (Dashboard)
-    -- Added this plugin to initial configuration
     {
         "goolord/alpha-nvim",
         lazy = true,
@@ -42,5 +40,28 @@ return {
     -- Treesitter
     {
         "nvim-treesitter/nvim-treesitter",
+    },
+    -- Language Support
+    {
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v2.x',
+        dependencies = {
+            -- LSP Support
+            {'neovim/nvim-lspconfig'},             -- Required
+            {'williamboman/mason.nvim'},           -- Optional
+            {'williamboman/mason-lspconfig.nvim'}, -- Optional
+
+            -- Autocompletion
+            {'hrsh7th/nvim-cmp'},         -- Required
+            {'hrsh7th/cmp-nvim-lsp'},     -- Required
+            {'hrsh7th/cmp-buffer'},       -- Optional
+            {'hrsh7th/cmp-path'},         -- Optional
+            {'saadparwaiz1/cmp_luasnip'}, -- Optional
+            {'hrsh7th/cmp-nvim-lua'},     -- Optional
+
+            -- Snippets
+            {'L3MON4D3/LuaSnip'},             -- Required
+            {'rafamadriz/friendly-snippets'}, -- Optional
+        }
     },
 }
