@@ -16,3 +16,5 @@ require "config.lsp"
 require "config.toggleterm"
 require "config.autopairs"
 require "config.undotree"
+
+require "config.indent"
