@@ -22,6 +22,9 @@ Fixing Icons for Nvimtree: I just had to install nerd fonts by running `brew tap
 installing the font via `brew install --cask font-hack-nerd-font` and then going to my profile and selecting
 my text as that font in iTerm in profiles -> text
 
+With all of these plugins, the `.config/nvim` folder is 800K and the `.local/share/nvim` and `.local/state/nvim` are combined 800k too.
+This means that this is only taking up around 2Gs of space, which is very little with all of the plugins I want installed
+
 # TODO:
 
 There are some things I still need to setup in neovim
