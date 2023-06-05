@@ -17,9 +17,15 @@ I also should learn how to have neovim configure different files differently - i
 
 `gd` works with LSP - I can go from one buffer to another buffer to go to where that thing is defined.
 
+
+Fixing Icons for Nvimtree: I just had to install nerd fonts by running `brew tap homebrew/cask-fonts` then
+installing the font via `brew install --cask font-hack-nerd-font` and then going to my profile and selecting
+my text as that font in iTerm in profiles -> text
+
 # TODO:
 
 There are some things I still need to setup in neovim
 - debugger
 - commenting
 - keymaps actually working
+- automate testing and compiling using `<leader>`
