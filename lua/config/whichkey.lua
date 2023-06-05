@@ -109,6 +109,8 @@ local mappings = {
   ["m"] = { "<cmd>Mason<cr>", "Mason UI for Lsp" },
   ["r"] = { "<cmd>lua vim.lsp.buf.format{async=true}<cr>", "Reformat Code" },
 
+  -- this defines the first keypress, and then the options later represent
+  -- the second keypress
   l = {
     name = "LSP",
     a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
@@ -136,6 +138,8 @@ local mappings = {
   -- Undotree
   ["u"] = { "<cmd>lua require('undotree').toggle()<CR>", "Undo-Tree" },
 
+  -- Lazygit
+  ["g"] = { "<cmd>LazyGit<cr>", "LazyGit" },
 }
 
 which_key.setup(setup)
