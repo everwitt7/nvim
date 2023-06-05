@@ -16,3 +16,10 @@ This is a code snipped from [telescope.nvim](https://github.com/nvim-telescope/t
 I also should learn how to have neovim configure different files differently - i.e. wrap lines for markdown files, but do not wrap lines for code
 
 `gd` works with LSP - I can go from one buffer to another buffer to go to where that thing is defined.
+
+# TODO:
+
+There are some things I still need to setup in neovim
+- debugger
+- commenting
+- keymaps actually working

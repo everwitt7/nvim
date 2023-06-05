@@ -140,6 +140,7 @@ local mappings = {
 
   -- Lazygit
   ["g"] = { "<cmd>LazyGit<cr>", "LazyGit" },
+  -- ["/"] = { "<cmd>CommentToggle<cr>", "CommentToggle" }
 }
 
 which_key.setup(setup)
